@@ -1,0 +1,1 @@
+This repository demonstrates a subtle issue in TypeScript's type guards concerning the handling of 'undefined' when working with optional parameters or nullable types.  A function designed to handle 'null' values may fail at compile time if an 'undefined' value is passed. The solution involves explicitly checking for 'undefined' or employing a more robust type-checking mechanism.
